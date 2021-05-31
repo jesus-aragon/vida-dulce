@@ -1,0 +1,122 @@
+*{
+
+	margin:0;
+	padding:0;
+}
+body {background-image:url("../Imagenes/abe1.jpg");}
+.main1{
+	width: 90%;
+	max-width: 1000px;
+	margin:20px auto;
+}
+.slides{
+	width:100%;
+}
+.slides img{
+	width:100%;
+}
+
+.slidesjs-pagination{
+	background: #424242;
+	list-style: none;
+	overflow: hidden;
+}
+.slidesjs-pagination li{
+	float:left;
+}
+.slidesjs-pagination li a{
+	display:block;
+	padding: 10px 20px;
+	color:#fff;
+	text-decoration:none;
+}
+.slidesjs-pagination li a:hover{
+	background: #000;
+}
+.slides .active{
+	background: #000;
+}
+.slidesjs-navigation{
+	background: #000;
+	color:#fff;
+	text-decoration:none;
+	display:inline-block;
+	padding:13.5px 20px;
+	float:right;
+}
+#header {
+	margin:auto;
+	width:500px;
+	font-family: Arial, Helvetica;
+}
+ul, ol {
+	list-style: none;
+}
+.nav > li{
+	float:left;
+}
+.nav li a{
+	background-color: #000;
+	color:#fff;
+	text-decoration: none;
+	padding: 10px 12px;
+	display:block;
+}
+.nav li a:hover{
+	background-color: #434343;
+}
+.nav li ul{
+	display: none;
+	position:absolute;
+	min-width: 140px;
+}
+.nav li:hover > ul{
+	display:block;
+}
+.nav li ul li{
+	position: relative;
+}
+.nav li ul li ul{
+	right:-140px;
+	top:0px;
+}
+.nav{
+	position :relative;
+	z-index:1000;
+}
+
+.main .articles{
+	width:68.5%;
+	margin-right: 1.5%;
+	float:left;
+}
+.main .articles article{
+	padding:20px;
+	background:#CEFFD6; 
+	margin-bottom: 20px;
+}
+.main{
+	width:90%;
+	max-width:1000px;
+	margin:20px auto;
+}
+.slides{
+	width:100%;
+}
+.slides img {
+    width:100%;
+}
+aside{
+	width:30%;
+	background: #ff8000;
+	float:left;
+	padding: 20px;
+	box-sizing:border-box;
+}
+footer{
+	background: #000;
+	color:#fff;
+	clear: both;
+	padding: 10px 0px;
+	text-align: center;
+}
